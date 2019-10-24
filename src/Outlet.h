@@ -28,11 +28,6 @@
 #endif
 
 /**
- * @brief 콘센트 제어
- * @date 2019-08-27
- * @author Janghun Lee (jhlee@sangsang.farm)
- */
-/**
  * @struct OutletInfo
  * @brief 콘센트 정보
  * @date 2019-10-24
@@ -47,6 +42,11 @@ typedef struct OutletInfo {
   bool last_state;
 } OutletInfo;
 
+/**
+ * @brief 콘센트 제어
+ * @date 2019-08-27
+ * @author Janghun Lee (jhlee@sangsang.farm)
+ */
 class Outlet {
  private:
   // 콘센트 상태 변화 flag
